@@ -12,7 +12,7 @@ sudo apt-get install jq
 
 2) copy samba4_ad.conf in your zabbix-agent etc folder
 
-ES: /etc/zabbix/zabbix_agentd.d/samba4_ad.conf
+Es: /etc/zabbix/zabbix_agentd.d/samba4_ad.conf
 
 3) add zabbix user to sudo with a tool visudo
 
