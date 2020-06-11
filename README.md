@@ -20,3 +20,5 @@ Es: /etc/zabbix/zabbix_agentd.d/samba4_ad.conf
 zabbix ALL=NOPASSWD: ALL
 
 5) Allow active-check in your zabbix_agentd.conf and AllowKey=system.run[*]
+
+6) copy samba4_ad.sh in /usr/local/bin
