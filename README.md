@@ -2,7 +2,7 @@
 This is my personale Samba4 AD Template for Zabbix 5
 
 # Introduction
-Until today 11/6/202 there is no a decent Zabbix Template for monitoring Samba4 AD so i still using Nagios just for this..until today.
+Until today 11/6/2020 there is no a decent Zabbix Template for monitoring Samba4 AD so i still using Nagios just for this..until today.
 Enjoy!
 
 # Installation
