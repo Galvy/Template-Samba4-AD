@@ -23,7 +23,7 @@ zabbix ALL=NOPASSWD: ALL
 
 6) copy samba4_ad.sh in /usr/local/bin
 
-7) add cron taks like:
+7) add cron tasks like:
 
 */15 * * * * /usr/local/bin/samba4_ad.sh doJson > /dev/null 2>&1
 
