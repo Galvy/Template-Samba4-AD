@@ -26,4 +26,5 @@ zabbix ALL=NOPASSWD: ALL
 7) add cron taks like:
 
 */15 * * * * /usr/local/bin/samba4_ad.sh doJson > /dev/null 2>&1
+
 0 */2 * * * /usr/local/bin/samba4_ad.sh doDbCheck > /dev/null 2>&1
