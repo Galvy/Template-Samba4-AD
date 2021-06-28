@@ -2,7 +2,7 @@
 This is my personale Samba4 AD Template for Zabbix 5
 
 # Introduction
-Until today 11/6/2020 there is no a decent Zabbix Template for monitoring Samba4 AD so i still using Nagios just for this..until today.
+Until today 26/6/2021 there is no a decent Zabbix Template(my own opinion) for monitoring Samba4 AD so i still using Nagios just for this..until today.
 Enjoy!
 
 # Installation
@@ -22,3 +22,8 @@ zabbix ALL=NOPASSWD: ALL
 5) Allow active-check in your zabbix_agentd.conf and AllowKey=system.run[*]
 
 6) copy samba4_ad.sh in /usr/local/bin
+
+7) add cron taks like:
+
+*/15 * * * * /usr/local/bin/samba4_ad.sh doJson > /dev/null 2>&1
+0 */2 * * * /usr/local/bin/samba4_ad.sh doDbCheck > /dev/null 2>&1
