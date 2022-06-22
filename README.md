@@ -15,7 +15,7 @@ sudo apt-get install jq
 
 Es: /etc/zabbix/zabbix_agentd2.d/samba4_ad.conf
 
-3) add zabbix user to sudo with a tool visudo
+3) add zabbix user to sudo with visudo
 
 4) allows 'zabbix' user to run all commands without password.
 zabbix ALL=NOPASSWD: ALL
