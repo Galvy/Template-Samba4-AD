@@ -2,9 +2,7 @@
 This is my personale Samba4 AD Template for Zabbix 5
 
 # Introduction
-Until today 26/6/2021 there is no decent Zabbix Template(my own opinion) for monitoring Samba4 AD so i still using Nagios just for this..until today.
-Enjoy!
-This tempalte is tested wind Zabbix Server 5, Centos 7 DC and Zabbix Agent2
+Until today 26/6/2021 there is no decent Zabbix Template (just my own opinion) for monitoring Samba4 AD so I am still using Nagios just for this, until today. Enjoy! This template is tested wind Zabbix Server 5, Centos 7 DC and Zabbix Agent2.
 
 # Installation
 1) install jq with yum or apt install jq
