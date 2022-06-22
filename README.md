@@ -18,7 +18,7 @@ Es: /etc/zabbix/zabbix_agentd2.d/samba4_ad.conf
 4) allows 'zabbix' user to run all commands without password.
 zabbix ALL=NOPASSWD: ALL
 
-5) Allow active-check in your zabbix_agentd.conf and AllowKey=system.run[*]
+5) Allow active-check in your zabbix_agentd2.conf and AllowKey=system.run[*]
 
 6) copy samba4_ad.sh in /usr/local/bin
 
